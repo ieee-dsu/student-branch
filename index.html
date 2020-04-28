@@ -1,0 +1,319 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>IEEE</title>
+  <style>
+    .parallax1 {
+      /* The image used */
+      background-color: #202020;
+      background-image: url("images/cir.png");
+      /* Set a specific height */
+      min-height: 1000px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      background-size: 650px 720px;
+    }
+
+    .parallax2 {
+      /* The image used */
+      background-color: #202020;
+      background-image: url("images/exe-bg3.png");
+      /* Set a specific height */
+      min-height: 730px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      background-size: 550px 630px;
+    }
+
+    @media (max-width: 1024px) and (min-width: 991px) {
+      .parallax1 {
+        background-size: 500px 850px;
+      }
+
+      .parallax2 {
+        background-position: 0 70%;
+        background-size: 550px 630px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .parallax1 {
+        background-size: 500px 750px;
+      }
+
+      .parallax2 {
+        background-position: 40% 50%;
+        background-size: 550px 650px;
+      }
+    }
+
+    @media (max-width: 414px) and (min-width: 300px) {
+      .parallax1 {
+        background-size: 320px 550px;
+      }
+
+      .parallax2 {
+        background-position: 40% 50%;
+        background-size: 400px 450px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Bar with responsiveness -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f6f6f6;">
+    <img src="images/logo.png" alt="IEEE" class='logo-img'>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle nav-items-pad" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="blogathon.html">Blogathon</a>
+            <a class="dropdown-item" href="#">Upcoming</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://www.ieee.org/conferences/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=conferences">Conferences</a>
+            <a class="dropdown-item" href="https://www.ieee.org/communities/societies/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=societies">Societies</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="#abt">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="#exe-com">ExeCom</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="#achievements">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-warning" id="contact-button" onclick="location.href='contact.html'">Contact us</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- For the first page -->
+  <div class="container-fluid">
+    <div class="row main">
+      <div class="col-lg-6 col-md-12 col-sm-12 heading">
+        <h1 class='head-first'>IDEATE</h1>
+        <h1>RESEARCH</h1>
+        <h1>INNOVATE</h1>
+        <button type="button" name="button" class="btn btn-outline-dark btn-lg join" id="jon-main-button" onclick="location.href='https://www.ieee.org/'">JOIN IEEE</button>
+        <button type="button" name="button" class="btn btn-outline-info btn-lg know-more" id="about-button" onclick="location.href='#abt'">KNOW MORE</button>
+      </div>
+      <div class="col-lg-6 col-md-12 col-small-12 images">
+        <img src="images/toppp.png" class="img-main">
+        <img src="images/topp.png" class="img-main">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- About section -->
+  <div class="container-fluid pad-abt">
+    <div id='abt' class="parallax1">
+      <div class="row mar-abt">
+        <div class="col-lg-6 col-md-12 col-sm-12 empty">
+
+        </div>
+        <div class="abt-ieee col-lg-6 col-md-12 col-sm-12">
+          <h3>ABOUT US</h3>
+          <h2 class="large-abt">odio pellentesque diam volutpat commodo sed egestas.</h2>
+          <h5>fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo</h5>
+          <button type="button" name="button" class="btn btn-outline-light btn-lg join-abt" id='about-but' onclick="location.href='https://www.ieee.org/'">JOIN NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explore IEEE section -->
+  <div class="container-fluid whats-new">
+    <div class='row'>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <h2 class='main-publish'>EXPLORE IEEE</h2>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <a href='https://innovate.ieee.org/ieee-spectrum-april-2020/'>
+          <h2 class="links-publish">April 2020: IEEE Spectrum Magazine</h2>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <a href="https://innovate.ieee.org/covid-19_related_research/">
+          <h2 class="links-publish">COVID-19 Related research</h2>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <a href="https://innovate.ieee.org/distance-learning-on-demand-webinar/">
+          <h2 class="links-publish">Using eLearning to Support Distance Learning</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Achievements carousel -->
+  <div class="achieve container-fluid" id="achievements">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="car-title">ACHIEVEMENTS</h2>
+          <hr>
+          <img class="d-block car-img" src="images/dummy.jpg">
+          <h4>Received a rebate of Rs. XX,XXX.YY from IEEE Bangalore section for the year 2018.</h4>
+        </div>
+        <div class="carousel-item">
+          <h2 class="car-title">ACHIEVEMENTS</h2>
+          <hr>
+          <img class="d-block car-img" src="images/dummy.jpg">
+          <h4>Received a rebate of Rs. XX,XXX.YY from IEEE Bangalore section for the year 2019.</h4>
+        </div>
+        <div class="carousel-item">
+          <h2 class="car-title">ACHIEVEMENTS</h2>
+          <hr>
+          <img class="d-block car-img" src="images/dummy.jpg">
+          <h4>The Impact Report for an International Conference was compiled by a member from our
+            Student branch.</h4>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- Exe-Com -->
+  <div class="parallax2" id="exe-com">
+    <div class="row execom">
+      <div class="col-lg-5 col">
+        <h2 class="exe-quote">Great minds have purposes; Others have wishes.</h2>
+      </div>
+      <div class="col-lg-7 right-pad">
+        <div class="exe">
+          <div id="carouselControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2 class="exe-title">ExeCom</h2>
+                <hr>
+                <h3 class="exe-pos">Branch Counsellor</h3>
+                <img src="images/dummy.jpg" class="exe-img">
+                <h4 class="exe-name">Mr. Test Name</h4>
+                <p class="exe-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun,</p>
+              </div>
+              <div class="carousel-item">
+                <h2 class="exe-title">ExeCom</h2>
+                <hr>
+                <h3 class="exe-pos">SB Chair</h3>
+                <img src="images/dummy.jpg" class="exe-img">
+                <h4 class="exe-name">Mr. Test Name</h4>
+                <p class="exe-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun,</p>
+              </div>
+              <div class="carousel-item">
+                <h2 class="exe-title">ExeCom</h2>
+                <hr>
+                <h3 class="exe-pos">SB Vice-Chair</h3>
+                <img src="images/dummy.jpg" class="exe-img">
+                <h4 class="exe-name">Mr. Test Name</h4>
+                <p class="exe-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun,</p>
+              </div>
+              <div class="carousel-item">
+                <h2 class="exe-title">ExeCom</h2>
+                <hr>
+                <h3 class="exe-pos">SB Secretary</h3>
+                <img src="images/dummy.jpg" class="exe-img">
+                <h4 class="exe-name">Mr. Test Name</h4>
+                <p class="exe-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun,</p>
+              </div>
+              <div class="carousel-item">
+                <h2 class="exe-title">ExeCom</h2>
+                <hr>
+                <h3 class="exe-pos">SB Treasurer</h3>
+                <img src="images/dummy.jpg" class="exe-img">
+                <h4 class="exe-name">Mr. Test Name</h4>
+                <p class="exe-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun,</p>
+              </div>
+              <div class="carousel-item">
+                <h2 class="exe-title">ExeCom</h2>
+                <hr>
+                <h3 class="exe-pos">Advisory Committee member 1</h3>
+                <img src="images/dummy.jpg" class="exe-img">
+                <h4 class="exe-name">Mr. Test Name</h4>
+                <p class="exe-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun,</p>
+              </div>
+              <div class="carousel-item">
+                <h2 class="exe-title">ExeCom</h2>
+                <hr>
+                <h3 class="exe-pos">Advisory Committee member 2</h3>
+                <img src="images/dummy.jpg" class="exe-img">
+                <h4 class="exe-name">Mr. Test Name</h4>
+                <p class="exe-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun,</p>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="fourth">
+    <a href="https://www.instagram.com/ieeeorg/?hl=en"><img src="images/insta.png" class="social-img"></a>
+    <a href="https://www.facebook.com/IEEE.org/"><img src="images/fb.png" class="social-img"></a>
+    <a href="https://www.linkedin.com/company/ieee"><img src="images/linkedin.png" class="social-img"></a>
+    <a href="https://github.com/topics/ieee"><img src="images/github.png" class="social-img git"></a>
+    <hr>
+    <p>
+                <a href="#" class="btn btn-store">
+                    <span class="fa fa-apple fa-3x pull-left"></span>
+                    <span class="btn-caption"> <img src="images/apple.png" alt="marker" class='icon-store'> App Store</span>
+                </a>
+                <a href="#" class="btn btn-store">
+                    <span class="fa fa-android fa-3x pull-left"></span>
+                    <!-- <span class="btn-label">Download on the</span> -->
+                    <span class="btn-caption"><img src="images/playstore.png" alt="marker" class='icon-store'>Google Play</span>
+                </a>
+            </p>
+  </div>
+  <div class="last">
+    <h6>©2020 IEEE DSU</h6>
+  </div
+
+</body>
+
+</html>

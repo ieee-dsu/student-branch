@@ -1,0 +1,909 @@
+/* Navigation Bar */
+.navigation-container {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.nav-items-pad {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+/* Contact */
+.bg-dark {
+    background-color: #343a40;
+}
+.icon-contact{
+
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.form{
+  background: linear-gradient(to right, #a1c4fd , #c2e9fb);
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #a1c4fd;
+    border-color:#c2e9fb;
+}
+
+/* Blogathon */
+.main-content-blog {
+  font-family: 'Montserrat';
+  width: 80%;
+  background-color: #f6f8f8;
+  text-align: center;
+  margin-left: 9.375%;
+  margin-right: 9.375%;
+  margin-top: 4%;
+}
+pre {
+  font-family: 'Montserrat';
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header {
+  height: 65px;
+  background-color: #2b3940;
+  text-align: center;
+}
+.content {
+  width: 60%;
+  height: 39%;
+  margin-left: 19.625%;
+  background-color: white;
+  font-size: 14px;
+}
+.second-blog {
+  width: 60%;
+  margin-left: 19.625%;
+  font-size: 14px;
+  text-align: left;
+}
+.content-title {
+  font-size: 30px;
+  margin: 50px;
+}
+.contain-content {
+  text-align: left;
+}
+/* First page */
+.main {
+  height: 700px;
+  background-color: white;
+  text-align: left;
+}
+.images {
+  background-color: white;
+  padding: 0;
+  padding-left: 120px;
+    margin-top: 30px;
+}
+
+.first-head {
+  padding-top: 200px;
+}
+
+.img-main {
+  height: 300px;
+  width: 500px;
+}
+
+/* Headings */
+h1 {
+  color: #202020;
+  padding-top: 40px;
+  font-size: 85px;
+  padding-left: 100px;
+  font-family: 'Montserrat';
+}
+
+h3 {
+  color: white;
+  margin-top: 120px;
+  font-size: 40px;
+  font-family: 'Montserrat';
+  margin-left: 30px;
+}
+h4 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  padding: 3.125%;
+  padding-bottom: 6.25%;
+}
+
+h5 {
+  color: white;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+hr {
+  width: 10%;
+  border-top: 1px solid grey;
+}
+
+/* About Section */
+.large-abt {
+  color: white;
+  margin-top: 70px;
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+.empty {
+  height: 400px;
+}
+
+/* buttons */
+.join {
+  margin-top: 60px;
+  margin-left: 150px;
+  padding: 15px 30px 15px 30px;
+}
+
+.join-abt {
+  padding: 15px 30px 15px 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.know-more {
+  margin-top: 60px;
+  margin-left: 15px;
+  padding: 15px 10px 17px 10px;
+}
+
+/* explore IEEE section */
+.whats-new {
+  /* height: 300px; */
+  background: linear-gradient(to right, #8693AB, #BDD4E7);
+  text-align: center;
+}
+.links-publish {
+  color: white;
+  font-family: 'Concert One', cursive;
+  font-size: 40px;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.main-publish {
+  color: black;
+  margin-top: 110px;
+  font-family: 'Montserrat';
+  font-size: 55px;
+}
+
+/* achievements section */
+.achieve {
+  background-color: #fff;
+}
+
+/* Carousel */
+.carousel-item {
+  text-align: center;
+}
+.car-img {
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 50%
+}
+.car-title {
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-size: 45px;
+  padding: 30px;
+  margin-top: 30px;
+  padding-top: 60px;
+}
+
+.fourth {
+  height: 190px;
+  background: linear-gradient(to right, #1b262c, #202020 );
+  text-align: center;
+}
+
+/* Social Media */
+
+.last {
+  height: 50px;
+  color: white;
+  background: linear-gradient(to right, #1b262c, #202020 );
+  text-align: center;
+}
+.social-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.git {
+  background-color: white;
+  border-radius: 50%;
+}
+.icon-store{
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.btn-store {
+  color: #777777;
+  min-width: 60px;
+  padding: 8px 8px ;
+  border-color: #dddddd ;
+  background-color: #ffffff;
+}
+
+.btn-store:focus,
+.btn-store:hover {
+  color: #ffffff ;
+  background-color: #168eea;
+  border-color: #168eea ;
+}
+
+.btn-store .btn-label,
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 20px;
+}
+
+h6 {
+  color: white;
+  margin: 0;
+}
+/* Changing the bg of controls */
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #202020;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Gallery Content */
+.gallery-first {
+  height: 300px;
+  background-color: white;
+  text-align: center;
+}
+.gallery-main {
+  background-color: #faebd7;
+  text-align: center;
+}
+.gallery-title {
+  font-family: 'Poiret One', cursive;
+  color: black;
+  font-size: 625%;
+  margin-top: 8%;
+}
+.gallery-img {
+  max-width: 70%;
+  height: auto;
+  margin: 50px;
+}
+/* ExeCom */
+.execom {
+  color: white;
+  margin: 0;
+}
+.mar-abt {
+  margin: 0;
+}
+.pad-abt {
+  padding: 0;
+}
+.right-pad {
+  padding-right: 0;
+  padding-left: 0;
+  width: 893px;
+}
+.exe {
+  text-align: center;
+}
+.exe-quote {
+  font-size: 70px;
+  margin-left: 100px;
+  margin-top: 140px;
+}
+.exe-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.exe-pos {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+.exe-title {
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.exe-name {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.exe-info {
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Montserrat';
+  padding-bottom: 60px;
+}
+/* Laptop Size */
+/* Media queries for start page */
+@media (max-width: 1440px) and (min-width: 1280px) and (min-height: 900px) {
+  /* Main page */
+  h1 {
+    padding-top: 80px;
+    font-size: 90px;
+  }
+
+  .first-head {
+    padding-top: 300px;
+  }
+
+  .images {
+    padding-top: 70px;
+    padding-left: 90px;
+  }
+  .main {
+    height: 803px;
+  }
+
+  /* About Section */
+  .large-abt {
+    margin-top: 70px;
+    font-size: 65px;
+  }
+
+  h3 {
+    margin-top: 130px;
+    font-size: 50px;
+  }
+  .join-abt {
+    padding: 20px 35px 20px 35px;
+    margin-top: 40px;
+  }
+
+  h5 {
+    margin-top: 70px;
+  }
+
+  /* Explore IEEE */
+  .links-publish {
+    font-size: 38px;
+    margin-top: 60px;
+  }
+
+  .main-publish {
+    margin-top: 90px;
+  }
+
+  /* Achievements */
+  .car-img {
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+  }
+  .car-title {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 25px;
+    padding: 60px;
+    padding-bottom: 120px;
+  }
+  /* Gallery */
+  .gallery-first {
+    height: 350px;
+  }
+
+  .gallery-title {
+    margin-top: 12%;
+  }
+  /* Blogathon */
+
+  pre {
+    font-size: 16px;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+  .second-blog {
+    font-size: 16px;
+  }
+
+}
+
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+
+  /* Main Page */
+  h1 {
+    font-size: 70px;
+    padding-top: 80px;
+  }
+  .first-head {
+    padding-top: 280px;
+  }
+
+  .images {
+    padding-top: 70px;
+    padding-left: 60px;
+  }
+  .main {
+    height: 750px;
+  }
+
+  /* About Section */
+  .large-abt {
+    margin-top: 70px;
+    font-size: 65px;
+  }
+
+  h3 {
+    margin-top: 130px;
+    font-size: 50px;
+  }
+  .join-abt {
+    padding: 20px 35px 20px 35px;
+    margin-top: 40px;
+  }
+
+  h5 {
+    margin-top: 70px;
+  }
+
+  /* Explore IEEE */
+  .links-publish {
+    font-size: 38px;
+    margin-top: 60px;
+  }
+
+  .main-publish {
+    margin-top: 90px;
+  }
+
+  /* Achievements */
+  .car-img {
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+  }
+  .car-title {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 22px;
+    padding: 60px;
+    padding-bottom: 120px;
+  }
+  /* Blogathon */
+
+  pre {
+    font-size: 16px;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+  .second-blog {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 991px){
+
+  /* Main Page */
+  h1 {
+    font-size: 6.557291666666667vw;
+    padding-top: 80px;
+
+  }
+  .first-head {
+    padding-top: 300px;
+  }
+
+  .images {
+    padding-top: 80px;
+    padding-left: 50px;
+  }
+  .main {
+    height: 750px;
+  }
+  .img-main {
+    width: 38.552083333333336vw;
+    height: 23.53125vw;
+  }
+  /* About Section */
+  .large-abt {
+    margin-top: 70px;
+    font-size: 65px;
+  }
+
+  h3 {
+    margin-top: 130px;
+    font-size: 50px;
+  }
+  .join-abt {
+    padding: 20px 35px 20px 35px;
+    margin-top: 40px;
+  }
+
+  h5 {
+    margin-top: 70px;
+  }
+
+  /* Explore IEEE */
+  .links-publish {
+    font-size: 38px;
+    margin-top: 60px;
+  }
+
+  .main-publish {
+    margin-top: 90px;
+  }
+
+  /* Achievements */
+  .car-img {
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+  }
+  .car-title {
+    font-size: 55px;
+  }
+
+  h4 {
+    font-size: 22px;
+    padding: 60px;
+    padding-bottom: 120px;
+  }
+  /* Gallery */
+  .gallery-first {
+    height: 400px;
+  }
+
+  .gallery-title {
+    font-size: 8.25rem;
+    margin-top: 17%;
+  }
+  .gallery-img {
+    max-width: 80%;
+    height: auto;
+    margin: 50px;
+  }
+  /* ExeCom */
+  .exe-quote {
+    font-size: 55px;
+  }
+  .exe-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .exe-name {
+    font-size: 27px;
+  }
+  .exe-info {
+    font-size: 20px;
+  }
+  /* Blogathon */
+  .main-content-blog {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  pre {
+    font-size: 20px;
+  }
+
+  .content {
+    width: 80%;
+    height: 45%;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  .second-blog {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  .content-title {
+    font-size: 40px;
+  }
+}
+/* Tablet size  */
+@media (max-width: 768px){
+  .main {
+    height: 1024px;
+  }
+  .heading {
+    text-align: center;
+  }
+  h1 {
+    font-size: 70px;
+    padding-left: 0;
+  }
+  .images {
+    padding-left: 0;
+  }
+  .img-main {
+    height: 230px;
+    width: 350px;
+  }
+  /* buttons */
+  .join {
+    margin-top: 60px;
+    margin-left: 40px;
+    padding: 15px 30px 15px 30px;
+  }
+  .know-more {
+    margin-top: 60px;
+    margin-left: 15px;
+    padding: 15px 10px 15px 10px;
+  }
+  /* About Section */
+  .large-abt {
+    font-size: 75px;
+  }
+  .empty {
+    height: 50px;
+  }
+  .join-abt {
+    margin-top: 60px;
+  }
+  h3 {
+    font-size: 60px;
+  }
+  .links-publish {
+    font-size: 35px;
+    margin-top: 70px;
+  }
+
+  .main-publish {
+    margin-top: 100px;
+    font-size: 50px;
+  }
+
+  /* Achievements */
+  .car-img {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 50%
+  }
+  .car-title {
+    font-size: 60px;
+    margin-top: 40px;
+  }
+  h4 {
+    font-size: 28px;
+    padding-bottom: 60px;
+  }
+  /* Gallery */
+  .gallery-first {
+    height: 400px;
+  }
+
+  .gallery-title {
+    font-size: 7.25rem;
+    margin-top: 19%;
+  }
+  .gallery-img {
+    max-width: 70%;
+    height: auto;
+    margin: 50px;
+  }
+  /* ExeCom */
+  .exe-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .exe-name {
+    font-size: 27px;
+  }
+  .exe-info {
+    font-size: 20px;
+    padding-bottom: 90px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  /* Blogathon */
+  .main-content-blog {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  pre {
+    font-size: 20px;
+  }
+
+  .content {
+    width: 80%;
+    height: 45%;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  .second-blog {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  .content-title {
+    font-size: 40px;
+  }
+}
+
+/* Mobile Size */
+@media (max-width: 414px) and (min-width: 300px){
+  h1 {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+  .heading {
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+  .main {
+    height: 580px;
+  }
+  .images {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .img-main {
+    width: 48.71875vw;
+    height: 130px;
+  }
+  .first-head {
+    padding-top: 100px;
+  }
+  .join {
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 7px;
+  }
+  .know-more {
+    margin-top: 30px;
+    margin-left: 5px;
+    padding: 7px 8px 7px 8px;
+  }
+
+  /* About */
+  .large-abt {
+    margin-top: 70px;
+    font-size: 12.05989vw;
+    margin-left: 30px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .empty {
+    height: 10px;
+  }
+
+  /* Explore */
+  .links-publish {
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .main-publish {
+    margin-top: 50px;
+    font-size: 45px;
+  }
+
+  /* achievements section */
+
+  .car-img {
+    height: 330px;
+    width: 300px;
+    padding: 30px 0 30px 0;
+    border-radius: 50%;
+  }
+  .car-title {
+    font-size: 42px;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /* Gallery */
+  .gallery-first {
+    height: 200px;
+  }
+
+  .gallery-title {
+    font-size: 3.45rem;
+    margin-top: 17%;
+  }
+  .gallery-img {
+    max-width: 80%;
+    height: auto;
+    margin: 50px;
+  }
+  /* Execom */
+  .exe-quote {
+    font-size: 48px;
+    margin-left: 70px;
+    margin-top: 80px;
+  }
+  .exe-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .exe-pos {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+  }
+  .exe-title {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .exe-name {
+    font-size: 25px;
+  }
+  .exe-info {
+    font-size: 16px;
+    padding-bottom: 60px;
+  }
+  /* Blogathon */
+  .main-content-blog {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  pre {
+    font-size: 16px;
+  }
+
+  .content {
+    width: 80%;
+    height: 45%;
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .second-blog {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .content-title {
+    font-size: 20px;
+  }
+}

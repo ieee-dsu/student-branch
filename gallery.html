@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>IEEE Gallery</title>
+  <style>
+    .gallery-main {
+      /* The image used */
+      background-color: #faebd7;
+      background-image: url("images/cir-gallery.png");
+      /* Set a specific height */
+      min-height: 760px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      background-size: 500px 720px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f6f6f6;">
+    <img src="images/logo.png" alt="IEEE" class='logo-img'>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle nav-items-pad" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="blogathon.html">Blogathon</a>
+            <a class="dropdown-item" href="#">Upcoming</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://www.ieee.org/conferences/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=conferences">Conferences</a>
+            <a class="dropdown-item" href="https://www.ieee.org/communities/societies/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=societies">Societies</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="index.html#abt">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="index.html#exe-com">ExeCom</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-items-pad" href="index.html#achievements">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-warning" id="contact-button" onclick="location.href='contact.html'">Contact us</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Title content -->
+  <div class="gallery-first">
+    <h2 class='gallery-title'>MOMENTS</h2>
+    <hr>
+  </div>
+
+  <!-- Resposnive grid of images with parallax -->
+  <div class="gallery-main container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <img src="images/dummy.jpg" class="gallery-img">
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
